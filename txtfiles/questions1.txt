@@ -1,0 +1,16 @@
+
+What is a web server, in your own words?
+    A web server is a place that gives websites to run on your browsers.
+
+What does Docker do for us, and how is it different from installing Node directly?
+    Docker helps us save versions of our webpages and it's different from Node since it's used more as
+    a container.
+
+Why do web files go in a public/ folder?
+    The web server (docker) runs anything outside the public folder which makes it secured.
+
+What does localhost refer to?
+    Localhost refers to that the webpage is only being shown to the user who created the webpage.
+
+In docker run -p 3000:3000, what do the two numbers mean?
+    The first 3000 is referring to the computer port, and the second 3000 refers to container's port.

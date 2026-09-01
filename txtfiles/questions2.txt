@@ -1,0 +1,17 @@
+A short text file answering:
+
+In your own words, what does "push" do, and what does "pull" do?
+    "Push" puts your files into a repo in GitHub. "Pull" grabs your from your repo and places them into
+    your droplet
+
+Why did we map port 8080 to port 3000 in the docker run command?
+    8080 places your website into the world wide web and 3000 makes sure it to grab it from your local 
+    computer.
+
+Why is it safer to run your app as a non-root user instead of as root?
+    It's safer because the root allows unlimited access to any command which in the wrong hands can 
+    cause problems.
+
+What does it mean that your repository is public, and why is that useful to you?
+    The repository is able to seen by anyone on GitHub and it's useful to show your progress in project
+    and allows for easy access in the droplet.

@@ -1,0 +1,82 @@
+/* HW3 – COSC 2328 – Professor McCurry   
+Implemented by: Amelia Jaimes Alcauter */
+
+:root {
+    --primary-color: #ccd5ae;
+    --secondary-color: #fefae0;
+    --tertiary-color: #f7b1b0;
+    --accent-color: #e9edc9;
+    --border-color: #d4a373;
+    --contrast-color: #faedcd;
+    --space: 16px;
+    --radius: 8px;
+}
+
+body {
+    margin: var(--space) auto;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#job-title {
+    width: 620px;
+    padding: var(--space);
+    border: 5px solid var(--border-color);
+    margin: var(--space) auto;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: var(--radius);
+}
+
+#job-title:hover {
+    color: #d88180;
+}
+
+#name {
+    font-size: 64px;
+    margin: var(--space) auto;
+    text-align: center;
+    border-bottom: 4px solid var(--border-color);
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+.box {
+    width: 480px;
+    height: auto;
+    padding: var(--space);
+    border: 3px solid var(--border-color);
+    margin: var(--space) auto;
+    background-color: var(--tertiary-color);
+    color: var(--secondary-color);
+    border-radius: var(--radius);
+}
+
+.subhead {
+    width: 620px;
+    padding: var(--space);
+    border: 5px solid var(--border-color);
+    margin: var(--space) auto;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: var(--radius);
+}
+
+.image-wrapper {
+    display: block;
+    width: 480px;
+    padding: var(--space);
+    border: 5px solid var(--border-color);
+    background-color: var(--secondary-color);
+    margin: auto;
+    border-radius: var(--radius);
+}
+
+.image-wrapper img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+

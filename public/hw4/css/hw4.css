@@ -13,6 +13,7 @@ body {
     background-color: #9d8189;
 }
 
+
 .container {
     padding: var(--space);
     max-width: 1200px;
@@ -73,8 +74,7 @@ button[type="submit"]:hover {
 
 @media (min-width: 768px) {
     .container {
-        display: flex;
+        display: flexbox;
         gap: 2rem;
-        flex-direction: column;
     }
 }

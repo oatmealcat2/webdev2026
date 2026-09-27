@@ -1,0 +1,108 @@
+<!-- HW4 - COSC 2328 - Professor McCurry 
+    Implemented by: Amelia Jaimes Alcauter -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/hw4.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>HW4 - Amelia Jaimes Alcauter</title>
+</head>
+<body>
+    <h1>FutureWeb 2026</h1>
+    <p class="container"> 
+        Hi! We are hosting an event talking about the future of the Internet with one of the <br>
+        popular programmer that popularized the idea of open-source programs. Hope to see you there!
+        <br> Our direction is primarily guided by making the Internet as a whole more personalized 
+        as social media has limited people's self-expression and vision. If you feel you're aligned <br>
+        with this goal then drop your resumes down below. We're always looking for more like-minded programmers!
+        <div class="event-info">
+            <h2>Event Details</h2>
+            <ul>
+                <li>Date: October 17th, 2026</li>
+                <li>Location: Moody Center</li>
+                <li>Speaker: Linus Torvalds</li>
+            </ul>
+
+            <img src="images/Computer History Museum.jpeg" alt="linus with Tux">
+
+            <div class="registration-form">
+                <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Attendee Details</legend>
+
+                        <label for="Name">Full Name</label><br>
+                        <input type="text" id="fullname" name="fullname"
+                            placeholder="Enter your name" required><br><br>
+                        
+                        <label for="Email">Email Address</label><br>
+                        <input type="email" id="email" name="email"
+                        placeholder="Enter a valid email" required><br><br>
+
+                        <label for="Date">Date of Arrival</label><br>
+                        <input type="date" id="date" name="date"
+                        placeholder="Enter today's date" required><br><br>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Session Preferences</legend>
+
+                        <label for="track-selection">Track Selection</label><br>
+                        <select name="Frontend" id="Frontend">
+                            <optgroup label="Frontend">
+                                <option value="react">React</option>
+                                <option value="vue">Vue</option>
+                                <option value="bootstrap">Bootstrap</option>
+                            </optgroup>
+                            <optgroup label="Backend">
+                                <option value="node">Node.js</option>
+                                <option value="python">Python</option>
+                                <option value="docker">Docker</option>
+                            </optgroup>
+                        </select><br><br>
+
+                        <label for="file">Upload Resume/Portfolio</label><br>
+                        <input type="file" id="file" name="file" accept=".pdf,.docx"
+                        placeholder="Enter your portfolio" required><br><br>
+                    </fieldset><br>
+                    <button type="submit">Submit</button>
+                </form>
+
+
+
+            </div>
+
+
+        </div>
+        
+    </p>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

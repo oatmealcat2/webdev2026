@@ -1,0 +1,79 @@
+/* HW4 – COSC 2328 – Professor McCurry
+   Implemented by: Amelia Jaimes Alcauter */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+    --space: 12px;
+    --max-width: 1200px;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #9d8189;
+}
+
+.container {
+    padding: var(--space);
+    max-width: 1200px;
+    margin: var(--space) auto;
+    border: 3px auto solid;
+    border-radius: 8px;
+    background-color: #ffcad4;
+}
+
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffcad4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 3px solid #f4acb7;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color:black;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ffe5d9;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input:focus {
+    border: #9d8189;
+}
+
+input:invalid { border-color: #dc3545; }
+input:valid   { border-color: #28a745; }
+
+button[type="submit"]:hover {
+    background-color: #d8e2dc;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        gap: 2rem;
+    }
+}

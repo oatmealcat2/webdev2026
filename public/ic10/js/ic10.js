@@ -50,7 +50,7 @@ if ((hasAccount && agreedToTerms) || isEmailVerified) {
 
 // stretch 
 
-const itemCount = 5;
+let itemCount = 5;
 let hasItem = true;
 
 if ((hasItem && itemCount)) {

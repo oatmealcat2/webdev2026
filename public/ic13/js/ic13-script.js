@@ -6,7 +6,7 @@
 
 let selectedProduct = null;
 let currentQuantity = 1;
-let discountPrice = 0;
+let discountRate = 0;
 
 // --- Display Update Function
 
@@ -16,7 +16,7 @@ function updateOrderSummary() {
 
     if (selectedProduct) {
         summaryProduct.textContent = "Product: " + selectedProduct.name;
-        const total = selectedProduct.price * currentQuantity * (1 - discountPrice);
+        const total = selectedProduct.price * currentQuantity * (1 - discountRate);
         summaryTotal.textContent = "Total: $" + total.toFixed(2);
     } else {
         summaryProduct.textContent = "No product selected";

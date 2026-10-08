@@ -77,7 +77,7 @@ orderForm.addEventListener("submit", function(e) {
         return;
     };
 
-    const total = selectedProduct.price * currentQuantity * (1 - discountRate);
+    const total = selectedProduct.price * currentQuantity * (1 - (discountRate));
 
     const orderDetails = "Order placed successfully! \n" +
     "Product: " + selectedProduct.name + "\n" + 

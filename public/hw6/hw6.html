@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW6 - Interactive Product Calculator</title>
+    <link rel="stylesheet" href="css/hw6.css">
+    <script defer src="js/hw6-script.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <h1>Product Order Calculator</h1>
+    </header>
+    <main class="container">
+        <form id="orderForm">
+            <fieldset>
+                <legend>Order Details</legend>
+                <select id="product">
+                    <optgroup label="Available Products:">
+                        <option value="laptop">Panasonic CF-S10</option>
+                        <option value="tablet">iPad Air</option>
+                        <option value="phone">Xiaomi 18 ProMax</option>
+                        <option value="monitor">Pixio PX249 24in 240hz</option>
+                        <option value="none">None</option>
+                    </optgroup>
+                </select>
+
+                <input type="number" id="quantity" min="1" max="10"
+                placeholder="1" required>
+                <input type="text" id="discountCode" placeholder="Enter a valid discount code">
+
+                <button type="submit">Calculate your total!</button>
+            </fieldset>
+        </form>
+        <div id="results" class="results-hidden">
+            
+        </div>
+        <footer class="site-footer">Amelia Jaimes Alcauter ~ COSC2328</footer>
+        <noscript></noscript>
+    </main>
+
+</body>
+
+
+
+
+
+</html>

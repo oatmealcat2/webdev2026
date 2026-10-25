@@ -1,0 +1,51 @@
+/* HW7 – COSC 2328 – Professor McCurry
+   Implemented by: Amelia Jaimes Alcauter */
+
+body {
+    background: linear-gradient(135deg, #f7b1b0 0%, #feeac7 100%);
+    font-family:'Courier New', Courier, monospace;
+    min-height: 100vh; 
+    padding: 20px;
+}
+
+.character-list { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+    gap: 22px; 
+}
+
+.character-card {
+    border-radius: 8px;
+    box-shadow: 0 6px 14px #d88180;
+}
+
+#loadingMessage {
+    max-width: 28rem;
+    margin: 3rem auto;
+    padding: 1.25rem 1.5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #403b42;
+    background: #fdf0d5;
+    border: 2px solid var(--border);
+    border-radius: 12px;
+}
+
+.error-message {
+  max-width: 32rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #540b0e;
+  background: #fcb9b2;
+  border: 2px solid #540b0e;
+  border-radius: 12px;
+}
+
+.roster-heading {
+  text-align: center;
+  margin: 0 0 1.5rem;
+}

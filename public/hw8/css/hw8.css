@@ -1,0 +1,58 @@
+/* HW8 – COSC 2328 – Professor McCurry
+   Implemented by: Amelia Jaimes Alcauter */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    background: #432818;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.app {
+    width: min(100% - 2rem, 40rem);
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background: #bb9457;
+    color: #ffe6a7;
+    border: 1px solid #99582a;
+    border-radius: 14px;
+}
+
+#root {
+    width: 100%;
+    max-width: 480px;
+}
+
+.task-card {
+    background: #99582a;
+    color: #ffe6a7;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgb(0, 0, 0, 0.25);
+}
+
+.task-form input[type="text"] {
+    flex: 1 1 14rem;
+    min-width: 0;
+}
+
+.error-message {
+  max-width: 32rem;
+  margin: 3rem auto;
+  padding: 1.25rem 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #540b0e;
+  background: #fcb9b2;
+  border: 2px solid #540b0e;
+  border-radius: 12px;
+}

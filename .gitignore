@@ -15,4 +15,4 @@ Thumbs.db
 
 # NOTE: *.db files are intentionally NOT listed here.
 # voyage.db is committed so the droplet gets seed data on git pull.
-package-lock.json
+package-lock

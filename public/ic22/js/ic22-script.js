@@ -25,7 +25,7 @@ document.getElementById("lookup-btn").addEvenetListener("click", async () => {
     const id = document.getElementById("student-id").value;
     const result = document.getElementById("student-result");
 
-    const response = await fetch("/ic22/students/${id}");
+    const response = await fetch(`/ic22/students/${id}`);
     const student = await response.json();
 
     if (student.message) {

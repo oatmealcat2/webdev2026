@@ -13,7 +13,7 @@ async function loadStudents() {
 
     students.forEach(student => {
         const li = document.createElement("li");
-        li.textContent = '${student.first_name} ${student.last_name} - ${student.classification}, ${student.major}';
+        li.textContent = `${student.first_name} ${student.last_name} - ${student.classification}, ${student.major}`;
 
         list.appendChild(li);
 
@@ -31,9 +31,9 @@ document.getElementById("lookup-btn").addEvenetListener("click", async () => {
     if (student.message) {
         result.textContent = student.message;
     } else {
-        result.textContent = '${student.first_name} ${student.last_name} - ${student.classification}, ${student.major}';
+        result.textContent = `${student.first_name} ${student.last_name} - ${student.classification}, ${student.major}`;
     }
-    
+
 });
 
 loadStudents();

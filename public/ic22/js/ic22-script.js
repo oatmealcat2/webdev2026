@@ -21,7 +21,7 @@ async function loadStudents() {
 
 }
 
-document.getElementById("lookup-btn").addEvenetListener("click", async () => {
+document.getElementById("lookup-btn").addEventListener("click", async () => {
     const id = document.getElementById("student-id").value;
     const result = document.getElementById("student-result");
 
